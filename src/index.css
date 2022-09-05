@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #222;
+    color: #fefefe;
+    font-family: 'Poppins', sans-serif;
+}
