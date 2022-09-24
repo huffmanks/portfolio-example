@@ -66,17 +66,22 @@ export const footerLinks: IFooterCol[] = [
             {
                 id: 31,
                 path: '#',
-                text: '767 5th Street, 21st Floor, New York, USA',
+                text: '767 5th Street, 21st Floor,',
             },
             {
                 id: 32,
                 path: '#',
+                text: 'New York, USA',
+            },
+            {
+                id: 33,
+                path: 'mailto:hello@qpox.com',
                 text: 'hello@qpox.com',
                 label: 'Mail us: ',
             },
             {
-                id: 33,
-                path: '#',
+                id: 34,
+                path: 'tel:0998-3829-3920',
                 text: '0998 3829 3920',
                 label: 'Call us: ',
             },
