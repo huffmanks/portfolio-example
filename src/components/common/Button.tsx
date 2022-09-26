@@ -5,7 +5,7 @@ interface IProps {
 
 const Button = ({ color, text }: IProps) => {
     const styles: INestedStyles = {
-        base: 'py-3 px-6 uppercase',
+        base: 'w-max py-3 px-6 uppercase',
         color: {
             primary: 'bg-orange-400 text-black',
         },

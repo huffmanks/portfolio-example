@@ -1,9 +1,11 @@
-import Hero from '../components/Hero'
+import HeroSection from '../components/HeroSection'
+import ClientSection from '../components/ClientSection'
 
 const Home = () => {
     return (
         <>
-            <Hero />
+            <HeroSection />
+            <ClientSection />
         </>
     )
 }
