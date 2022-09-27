@@ -3,6 +3,8 @@ import ClientSection from '../components/ClientSection'
 import TaglineSection from '../components/TaglineSection'
 import ProductSection from '../components/ProductSection'
 import AboutSection from '../components/AboutSection'
+import WhySection from '../components/WhySection'
+import BlogSection from '../components/BlogSection'
 
 const Home = () => {
     return (
@@ -12,6 +14,8 @@ const Home = () => {
             <TaglineSection />
             <ProductSection />
             <AboutSection />
+            <WhySection />
+            <BlogSection />
         </>
     )
 }

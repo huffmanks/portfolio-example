@@ -13,6 +13,11 @@ import productOne from '../assets/products/product-01.jpg'
 import productTwo from '../assets/products/product-02.jpg'
 import productThree from '../assets/products/product-03.jpg'
 
+import aboutOne from '../assets/about-us-01.jpg'
+import aboutTwo from '../assets/about-us-02.jpg'
+
+import whyUs from '../assets/why-us.jpg'
+
 import blogOne from '../assets/blogs/blog-01.jpg'
 import blogTwo from '../assets/blogs/blog-02.jpg'
 import blogThree from '../assets/blogs/blog-03.jpg'
@@ -21,4 +26,6 @@ export const hero = { desktop: heroDesktop, mobile: heroMobile }
 export const headshots = { one: headshotOne, two: headshotTwo }
 export const logos = { google, netflix, slack, intercom }
 export const products = { one: productOne, two: productTwo, three: productThree }
+export const aboutUs = { one: aboutOne, two: aboutTwo }
+export { whyUs }
 export const blogs = { one: blogOne, two: blogTwo, three: blogThree }

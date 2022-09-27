@@ -1,11 +1,12 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import Footer from './layout/Footer'
 import Navbar from './layout/Navbar'
+import Footer from './layout/Footer'
 
+import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
-import Home from './pages/Home'
+import PageNotFound from './pages/PageNotFound'
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/contact' element={<Contact />} />
+                <Route path='*' element={<PageNotFound />} />
             </Routes>
             <Footer />
         </BrowserRouter>
