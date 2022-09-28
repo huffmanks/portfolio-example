@@ -18,22 +18,22 @@ export const footerLinks: IFooterCol[] = [
         links: [
             {
                 id: 11,
-                path: '/about',
+                path: '#',
                 text: 'About Us',
             },
             {
                 id: 12,
-                path: '/projects',
+                path: '#',
                 text: 'Our Projects',
             },
             {
                 id: 13,
-                path: '/why',
+                path: '#',
                 text: 'Why Us',
             },
             {
                 id: 14,
-                path: '/blog',
+                path: '#',
                 text: 'Latest Blog',
             },
         ],
@@ -44,17 +44,17 @@ export const footerLinks: IFooterCol[] = [
         links: [
             {
                 id: 21,
-                path: '/privacy-policy',
+                path: '#',
                 text: 'Privacy Policy',
             },
             {
                 id: 22,
-                path: '/faq',
+                path: '#',
                 text: 'FAQ',
             },
             {
                 id: 23,
-                path: '/contact',
+                path: '#',
                 text: 'Contact',
             },
         ],
@@ -75,13 +75,13 @@ export const footerLinks: IFooterCol[] = [
             },
             {
                 id: 33,
-                path: 'mailto:hello@qpox.com',
+                path: '#',
                 text: 'hello@qpox.com',
-                label: 'Mail us: ',
+                label: 'Email us: ',
             },
             {
                 id: 34,
-                path: 'tel:0998-3829-3920',
+                path: '#',
                 text: '0998 3829 3920',
                 label: 'Call us: ',
             },
