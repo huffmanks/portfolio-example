@@ -4,11 +4,11 @@ import { headshots, hero } from '../constants/images'
 
 const HeroSection = () => {
     return (
-        <section className='max-w-screen-xl grid grid-cols-1 md:grid-cols-2 items-center justify-between gap-x-8 gap-y-16 mx-auto pt-1 md:pt-8 pb-16 md:pl-10'>
+        <section className='max-w-screen-xl grid grid-cols-1 md:grid-cols-2 items-center gap-x-8 gap-y-16 mx-auto pt-1 md:pt-8 pb-16 md:pl-10'>
             <div className='md:hidden'>
                 <img className='w-full object-cover object-top max-h-[50vh]' src={hero.mobile} alt='hero' />
             </div>
-            <div className='flex flex-col items-center md:items-start px-8'>
+            <div className='flex flex-col items-center px-8'>
                 <div className='flex items-center gap-3 mb-8 lg:mb-12'>
                     <div className='w-0.5 h-6 lg:w-6 lg:h-0.5 bg-orange-400'></div>
                     <div className='text-sm xs:text-base lg:text-lg'>&ldquo;We help people to reshape their business.&rdquo;</div>
@@ -44,7 +44,7 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <div className='hidden md:block'>
+            <div className='hidden md:flex justify-center'>
                 <img className='max-h-[90vh]' src={hero.desktop} alt='hero' />
             </div>
         </section>
